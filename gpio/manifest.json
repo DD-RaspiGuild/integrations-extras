@@ -1,0 +1,33 @@
+{
+  "display_name": "gpio",
+  "maintainer": "dany.narcisse@datadoghq.com",
+  "manifest_version": "1.0.0",
+  "name": "gpio",
+  "metric_prefix": "gpio.",
+  "metric_to_check": "",
+  "creates_events": false,
+  "short_description": "",
+  "guid": "9721b5f2-bf7e-461e-961c-2efbee3e5b6e",
+  "support": "contrib",
+  "supported_os": [
+    "linux",
+    "mac_os",
+    "windows"
+  ],
+  "public_title": "gpio",
+  "categories": [
+    ""
+  ],
+  "type": "check",
+  "is_public": false,
+  "integration_id": "gpio",
+  "assets": {
+    "configuration": {
+      "spec": "assets/configuration/spec.yaml"
+    },
+    "dashboards": {},
+    "monitors": {},
+    "saved_views": {},
+    "service_checks": "assets/service_checks.json"
+  }
+}
